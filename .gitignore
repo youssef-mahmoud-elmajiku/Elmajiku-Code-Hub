@@ -1,0 +1,27 @@
+# Node / TypeScript
+node_modules/
+dist/
+build/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Prisma
+node_modules/.prisma/
+
+# Capacitor / Android
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
